@@ -27,3 +27,45 @@ The main goal is starting my career as a Middle Front-End developer. I want to i
 * DB (MySQL, Mercurial)
 
 &nbsp;
+
+## 💾 Example of My Code
+PHP (1C-Bitrix) 
+Using BitrixAPI for get value UserFields
+```PHP
+$arSectionsInfo = array();
+foreach ($arResult['SECTION']['PATH'] as $key => $SECTION) {
+    $uf_arresult = CIBlockSection::GetList(Array(), Array("IBLOCK_ID" => $arResult['IBLOCK_ID'], "ID" => $SECTION['ID']), false, Array( "ID" , "UF_LINK_INFO" ));
+    if($uf_value = $uf_arresult->GetNext()):
+        $arSectionsInfo = array_unique(array_merge($arSectionsInfo, $uf_value['UF_LINK_INFO']));
+    endif;
+}
+if($arSectionsInfo){
+    $rs = CIBlockElement::GetList(
+       [],
+       ['IBLOCK_ID' => '36', 'ID' => $arSectionsInfo],
+       false, false,
+       ['ID', 'IBLOCK_ID', 'NAME', 'PREVIEW_TEXT', 'PROPERTY_YOUTUBE_LINK']
+    );
+    $arSectionsInfo = array();
+    while ($ar = $rs->Fetch()) {
+       $arSectionsInfo[$ar['ID']] = $ar;
+    }
+    $arResult['ELEMENT_LINKS'] = $arSectionsInfo;
+}
+```
+
+Python. Create new images which have barcode and QRcode from information xlsx file [code](https://github.com/KusakinVova/createImage)
+
+&nbsp;
+
+## 👨‍💻 Experience
+
+| :--- | :--- |
+| 2018 — Present | Web developer <br> Individual entrepreneur, freelance                               |
+| 2017 — 2018    | Python and PHP programmer <br> Ltd "Consulting Center "Kingston Apon Hill""         |
+| 2015 — 2017    | Full stack web developer <br> Ltd Alloinfo                                          |
+| 2014 — 2015    | Full stack web developer <br> Ltd MyHome                                            |
+| 2013 — 2014    | PHP programmer <br> Ltd STIB                                                        |
+| 2012 — 2013    | Engineer of the department of automated technical processes <br>AVDIIVKA COKE PLANT |
+
+&nbsp;
