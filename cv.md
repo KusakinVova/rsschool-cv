@@ -69,3 +69,23 @@ Python. Create new images which have barcode and QRcode from information xlsx fi
 | 2012 — 2013    | Engineer of the department of automated technical processes <br>AVDIIVKA COKE PLANT |
 
 &nbsp;
+
+## 🎓 Education
+
+### Online learning
+
+| :--- | :---                                                                                            |
+| 2013 | **Bitrix Framework Developer**<br>Ltd "1C-Bitrix"                                               |
+| 2013 | **Basic CSS** <br> NOU "INTUIT"                                                                 |
+| 2010 | **Java Fundamental**<br>Java Fundamental сourses powered by Sun Microsystems <br>DonNTU UNITECH |
+
+### Higher education
+
+| :--- | :--- |
+| 2005 — 2011 | **Master's degree** <br> **University:** Donetsk National Technical University <br> **Faculty:** Computer Sciences and Technologies (CST)<br> **Department:** Automated Control Systems (ACS)<br> **Speciality:** Information Control Systems and Technologies (ICS) |
+
+&nbsp;
+
+## 📚 English 
+* Pre-intermediate/Intermediate (A2/B1)
+
