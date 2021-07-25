@@ -24,7 +24,7 @@ The main goal is starting my career as a Middle Front-End developer. I want to i
 * JavaScript (jQuery)
 * NodeJS
 * Python (django)
-* DB (MySQL, Mercurial)
+* DB (MySQL, PostgreSQL)
 
 &nbsp;
 
