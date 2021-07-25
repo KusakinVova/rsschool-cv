@@ -125,7 +125,6 @@ body.cv a:hover{
 }
 .cv-codeblock{
     overflow: auto;
-    margin: 10px;
     background-color: #3b3b3b;
     color: #ffffff;
     padding: 0 20px;
@@ -143,13 +142,6 @@ body.cv a:hover{
     border-bottom: 1px solid #3b3b3b;
 }
 
-.cv-table-row{
-    /* border: 1px solid #3b3b3b; */
-    /* border-top: none; */
-}
-.cv-table-row:nth-child(1){
-    /* border: 1px solid #3b3b3b; */
-}
 .cv-table-row:nth-child(2n){
     background-color: #e6e6e6;
 }
