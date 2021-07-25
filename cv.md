@@ -1,4 +1,4 @@
-![Vladimir Kusakin](cv-img/logo.jpg)
+![Vladimir Kusakin](images/photo.jpg)
 # Vladimir **Kusakin**
 
 ## 📞 Contacts 
