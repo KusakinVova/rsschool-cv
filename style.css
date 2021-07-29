@@ -48,6 +48,9 @@ body.cv a:hover{
     font-size: 2em;
     color: #010000;
 }
+.cv-figure{
+    margin: 0;
+}
 .cv-photo{
     max-width: 100%;
 }
