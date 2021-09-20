@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vladimir Kusakin CV</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/highlight/stackoverflow-dark.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="cv">
+  <div class="container" id="top">
+    <header class="cv-header">
+      <a class="nav_linklogo" href="#top">
+        <img class="nav_logo" src="./assets/img/favicon.png" alt="logo">
+      </a>
+      <nav class="nav_menu nav_menu_desktop">
+        <ul class="nav_list">
+          <li class="nav_item"><a class="nav_link" href="#contacts">Contacts</a></li>
+          <li class="nav_item"><a class="nav_link" href="#skills">Skills</a></li>
+          <li class="nav_item"><a class="nav_link" href="#summary">Summary</a></li>
+          <li class="nav_item"><a class="nav_link" href="#experience">Experience</a></li>
+          <li class="nav_item"><a class="nav_link" href="#portfolio">Portfolio</a></li>
+          <li class="nav_item"><a class="nav_link" href="#video">Video</a></li>
+          <li class="nav_item"><a class="nav_link" href="#code">Code</a></li>
+          <li class="nav_item"><a class="nav_link" href="#education">Education</a></li>
+          <li class="nav_item"><a class="nav_link" href="#english">English</a></li>
+        </ul>
+      </nav>
+      <div class="burger_menu nav_toggle" onclick="showMobMenu()">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main class="cv-main">
+      <aside class="block-left cv-grey">
+        <div class="cv-sec cv-photoname cv-orange">
+          <figure class="cv-figure">
+            <img class="cv-photo" src="./assets/img/photo.jpg" alt="Vladimir Kusakin">
+            <figcaption>Photo Vladimir Kusakin 2021</figcaption>
+          </figure>
+          <h1 class="cv-h1">Vladimir Kusakin</h1>
+          <p class="cv-subtitle">Full Stack Developer</p>
+        </div>
+        <section class="cv-sec cv-contacts" id="contacts">
+          <h2 class="cv-h2 cv-h2-white">Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a class="contacts-linkimg" href="https://t.me/kusakinvladimir" title="kusakin vladimir telegram">
+                <img src="./assets/svg/telegram-orange.svg" alt="telegram svg orange">
+              </a>
+              <a class="contacts-link" href="https://t.me/kusakinvladimir" title="kusakin vladimir telegram">@kusakinvladimir</a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-linkimg" href="mailto:kusakinvova@gmail.com" title="kusakin vladimir mail">
+                <img src="./assets/svg/mail-orange.svg" alt="mail svg orange">
+              </a>
+              <a class="contacts-link" href="mailto:kusakinvova@gmail.com" title="kusakin vladimir mail">kusakinvova@gmail.com</a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-linkimg" href="https://github.com/KusakinVova" title="kusakin vladimir github">
+                <img src="./assets/svg/github-orange.svg" alt="github svg orange">
+              </a>
+              <a class="contacts-link" href="https://github.com/KusakinVova" title="kusakin vladimir github">KusakinVova</a>
+            </li>
+            <li class="contacts-item">
+              <img src="./assets/svg/discord-orange.svg" alt="discord svg orange">
+              <span>KusakinVova (@kusakinvova)</span>
+            </li>
+            <li class="contacts-item">
+              <img src="./assets/svg/map-orange.svg" alt="map svg orange">
+              <span>Russia, Saratov</span>
+            </li>
+          </ul>
+        </section>
+        <section class="cv-sec cv-skills" id="skills">
+          <h2 class="cv-h2 cv-h2-white">Hard Skills</h2>
+          <ul class="cv-skills-list">
+            <li class="cv-skills-item" data-ex="60">PHP (Bitrix, Wordpress, Drupal)</li>
+            <li class="cv-skills-item" data-ex="90">HTML5</li>
+            <li class="cv-skills-item" data-ex="80">CSS (Bootstrap, Materialize)</li>
+            <li class="cv-skills-item" data-ex="50">JavaScript (jQuery)</li>
+            <li class="cv-skills-item" data-ex="20">NodeJS</li>
+            <li class="cv-skills-item" data-ex="20">Python (django)</li>
+            <li class="cv-skills-item" data-ex="40">SQL (MySQL, PostgreSQL)</li>
+          </ul>
+
+          <h2 class="cv-h2 cv-h2-white">Soft Skills</h2>
+          <ul class="cv-softskills-list">
+            <li class="cv-softskills-item">Collaboration</li>
+            <li class="cv-softskills-item">Communication</li>
+            <li class="cv-softskills-item">Critical Thinking</li>
+            <li class="cv-softskills-item">Problem Solving</li>
+            <li class="cv-softskills-item">Adaptability</li>
+          </ul>
+        </section>
+      </aside>
+      <div class="block-right cv-white">
+        <section class="cv-sec cv-summary" id="summary">
+          <h2 class="cv-h2"> <img src="./assets/svg/notes-grey.svg" alt="svg notes-grey"> Summary</h2>
+          <div class="cv-text">
+            <p>I am full stack developer. I’ve been developing applications for the web using mostly PHP with popular CMS (Drupal, 1C-Bitrix, Wordpress) since 2013.</p>
+            <p>The main goal is starting my career as a Middle Front-End developer. I want to improve my JavaScript skills and to get the the Frontend-job next year.</p>
+          </div>
+        </section>
+        <section class="cv-sec cv-experience" id="experience">
+          <h2 class="cv-h2"> <img src="./assets/svg/imac-grey.svg" alt="svg imac-grey"> Experience</h2>
+          <div class="cv-table">
+            <div class="cv-table-row">
+              <div class="cv-table-td">2018 — Present</div>
+              <div class="cv-table-td">
+                <b>Web developer</b> <br>Individual entrepreneur, freelance
+              </div>
+            </div>
+            <div class="cv-table-row">
+              <div class="cv-table-td">2017 — 2018</div>
+              <div class="cv-table-td"> 
+                <b> Python and PHP programmer </b> <br>Ltd “Consulting Center “Kingston Apon Hill””
+              </div>
+            </div>
+            <div class="cv-table-row">
+              <div class="cv-table-td">2015 — 2017</div>
+              <div class="cv-table-td">
+                <b>Full stack web developer</b> <br>Ltd Alloinfo
+              </div>
+            </div>
+            <div class="cv-table-row">
+              <div class="cv-table-td">2014 — 2015</div>
+              <div class="cv-table-td">
+                <b>Full stack web developer</b> <br>Ltd MyHome
+              </div>
+            </div>
+            <div class="cv-table-row">
+              <div class="cv-table-td">2013 — 2014</div>
+              <div class="cv-table-td">
+                  <b>PHP programmer</b> <br> Ltd STIB
+              </div>
+            </div>
+            <div class="cv-table-row">
+                <div class="cv-table-td">2012 — 2013</div>
+                <div class="cv-table-td">
+                  <b>Engineer of the department of automated technical processes</b> <br>AVDIIVKA COKE PLANT
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cv-sec cv-portfolio" id="portfolio">
+          <h2 class="cv-h2"> <img src="./assets/svg/briefcase-grey.svg" alt="svg briefcase-grey"> Portfolio</h2>
+          <div class="portfolio_list">
+            <div class="portfolio_item">
+              <a class="portfolio_link" href="https://compressor-ga.ru/" target="_blank" title="compressor-ga">
+                <img class="portfolio_img" src="./assets/img/p_compressorga.jpg" alt="compressor-ga" >
+                <div class="portfolio_info">
+                  <p>Title: Compressor-ga</p>
+                  <p>Description: site company Technoteks</p>
+                  <p>Tools: PHP, 1C-Bitrix, Javascript, jQuery</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio_item">
+              <a class="portfolio_link" href="https://engtechno.ru/" target="_blank" title="engtechno">
+                <img class="portfolio_img" src="./assets/img/p_engtechno.jpg" alt="engtechno" >
+                <div class="portfolio_info">
+                  <p>Title: Engtechno</p>
+                  <p>Description: Company sales of compressor</p>
+                  <p>Tools: PHP, 1C-Bitrix, Javascript</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio_item">
+              <a class="portfolio_link" href="https://nesterov-dance.ru/" target="_blank" title="nesterov-dance">
+                <img class="portfolio_img" src="./assets/img/p_nesterovdance.jpg" alt="nesterov-dance" >
+                <div class="portfolio_info">
+                  <p>Title: NesterovDance</p>
+                  <p>Description: Dancing school</p>
+                  <p>Tools: PHP, 1C-Bitrix, Javascript</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio_item">
+              <a class="portfolio_link" href="https://aircompressorhub.ru/" target="_blank" title="aircompressorhub">
+                <img class="portfolio_img" src="./assets/img/p_aircompressorhub.jpg" alt="aircompressorhub" >
+                <div class="portfolio_info">
+                  <p>Title: Air Compressor Hub</p>
+                  <p>Description: Company sales of compressor</p>
+                  <p>Tools: PHP, 1C-Bitrix, Javascript</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio_item">
+              <a class="portfolio_link" href="https://studio-chatuch.ru/" target="_blank" title="studio-chatuch">
+                <img class="portfolio_img" src="./assets/img/p_studiochatuch.jpg" alt="studio-chatuch" >
+                <div class="portfolio_info">
+                  <p>Title: Chatuch</p>
+                  <p>Description: Beauty salon</p>
+                  <p>Tools: PHP, 1C-Bitrix, Javascript, jQuery, Bootstrap</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio_item">
+              <a class="portfolio_link" href="http://arenda.alloinfo.info/" target="_blank" title="arenda v saratove">
+                <img class="portfolio_img" src="./assets/img/p_arendaalloinfo.jpg" alt="arenda" >
+                <div class="portfolio_info">
+                  <p>Title: </p>
+                  <p>Description: </p>
+                  <p>Tools: PHP, 1C-Bitrix, Javascript, jQuery, Bootstrap</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="cv-sec cv-video" id="video">
+          <h2 class="cv-h2"> <img src="./assets/svg/video-grey.svg" alt="svg video">Video</h2>
+          <div class="cv_videoblock">
+            <iframe width="320" height="300" src="https://www.youtube.com/embed/HyL36fLnVMY" title="RS Self-Introduction Vladimir Kusakin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section>
+
+        <section class="cv-sec cv-code" id="code">
+          <h2 class="cv-h2"> <img src="./assets/svg/diskette-grey.svg" alt="svg diskette-grey"> Example of My Code</h2>
+          <div class="cv-text">
+            <p>PHP (1C-Bitrix) Using BitrixAPI for get value UserFields</p>
+            <pre class="cv-codeblock language-php">
+              <code>
+$arSectionsInfo = array();
+foreach ($arResult['SECTION']['PATH'] as $key => $SECTION) {
+  $uf_arresult = CIBlockSection::GetList(Array(), Array("IBLOCK_ID" => $arResult['IBLOCK_ID'], "ID" => $SECTION['ID']), false, Array( "ID" , "UF_LINK_INFO" ));
+  if($uf_value = $uf_arresult->GetNext()):
+    $arSectionsInfo = array_unique(array_merge($arSectionsInfo, $uf_value['UF_LINK_INFO']));
+  endif;
+}
+if($arSectionsInfo){
+  $rs = CIBlockElement::GetList(
+    [],
+    ['IBLOCK_ID' => '36', 'ID' => $arSectionsInfo],
+    false, false,
+    ['ID', 'IBLOCK_ID', 'NAME', 'PREVIEW_TEXT', 'PROPERTY_YOUTUBE_LINK']
+  );
+  $arSectionsInfo = array();
+  while ($ar = $rs->Fetch()) {
+    $arSectionsInfo[$ar['ID']] = $ar;
+  }
+  $arResult['ELEMENT_LINKS'] = $arSectionsInfo;
+}
+              </code>
+            </pre>
+            <p>
+              Python. Create new images which have barcode and QRcode from information xlsx file 
+              <a href="https://github.com/KusakinVova/createImage" title="create img with python">code</a>
+            </p>
+          </div>
+        </section>
+        <section class="cv-sec cv-education" id="education">
+          <h2 class="cv-h2"> <img src="./assets/svg/mortarboard-grey.svg" alt="svg mortarboard-grey"> Education</h2>
+
+          <h3 class="cv-h3">Online learning</h3>
+          <div class="cv-table">
+            <div class="cv-table-row">
+              <div class="cv-table-td">2013</div>
+              <div class="cv-table-td"><b> Bitrix Framework Developer</b> <br>Ltd “1C-Bitrix”</div>
+            </div>
+            <div class="cv-table-row">
+              <div class="cv-table-td">2013</div>
+              <div class="cv-table-td"><b>Basic CSS</b> <br>NOU “INTUIT”</div>
+            </div>
+            <div class="cv-table-row">
+              <div class="cv-table-td">2010</div>
+              <div class="cv-table-td"><b>Java Fundamental</b><br> Java Fundamental сourses powered by Sun Microsystems <br>DonNTU UNITECH</div>
+            </div>
+          </div>
+
+          <h3 class="cv-h3">Higher education</h3>
+          <div class="cv-table">
+            <div class="cv-table-row">
+                <div class="cv-table-td">2005 — 2011	</div>
+                <div class="cv-table-td">
+                  <b>Master’s degree</b> <br>
+                  <b>University:</b> Donetsk National Technical University<br>
+                  <b>Faculty:</b> Computer Sciences and Technologies (CST)<br>
+                  <b>Department:</b> Automated Control Systems (ACS)<br>
+                  <b>Speciality:</b> Information Control Systems and Technologies (ICS)
+                </div>
+            </div>
+          </div>
+
+        </section>
+        <section class="cv-sec cv-english" id="english">
+          <h2 class="cv-h2"> <img src="./assets/svg/books-grey.svg" alt="svg books-grey"> English</h2>
+          <div class="cv-text">
+            <p>Pre-intermediate/Intermediate (A2/B1)</p>
+          </div>
+        </section>
+      </div>
+        
+    </main>
+    <footer class="cv-footer">
+      <div class="cv-footer-item">
+        <a href="https://github.com/KusakinVova">GitHub KusakinVova</a>
+      </div>
+      <div class="cv-footer-item">2021</div>
+      <div class="cv-footer-item">
+        <a href="https://rs.school/js/" title="rsschool site"><img class="cv-footer-img" src="./assets/svg/rs_school_js.svg" alt="rsschol logo"></a>
+      </div>
+    </footer>
+  </div>
+  <script src="./assets/highlight/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
